@@ -1,15 +1,9 @@
 import styled from '@emotion/styled';
 import { Outlet } from 'react-router-dom';
+import Header from 'src/components/Header';
 
 const Container = styled.div({
   minHeight: '100vh',
-});
-
-const HeaderContainer = styled.div({
-  backgroundColor: '#333',
-  padding: '10px',
-  color: 'white',
-  textAlign: 'center',
 });
 
 const FlexContainer = styled.div({
@@ -37,10 +31,7 @@ const FooterContainer = styled.div({
 export default function MainLayout() {
   return (
     <Container>
-      <HeaderContainer>
-        <h1>Vite + React</h1>
-      </HeaderContainer>
-
+      <Header />
       <FlexContainer>
         {/* <SidebarContainer>Sidebar</SidebarContainer> */}
         <Outlet />
