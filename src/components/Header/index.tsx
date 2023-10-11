@@ -40,9 +40,6 @@ export default function Header() {
         <LinkTo to="/account/service/signin">
           <Text>로그인</Text>
         </LinkTo>
-        <LinkTo to="/account/service/create/signup">
-          <Text>회원가입</Text>
-        </LinkTo>
       </Box>
     </HeaderContainer>
   );
