@@ -29,6 +29,7 @@
         "react/function-component-definition": "off",
         "react/jsx-props-no-spreading": "off",
         "import/prefer-default-export": "off",
-				"react/jsx-no-useless-fragment": "off"
+		"react/jsx-no-useless-fragment": "off",
+        "consistent-return": "off"
     }
 }
